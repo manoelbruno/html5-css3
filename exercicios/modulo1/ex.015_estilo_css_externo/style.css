@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: darkblue;
+    background-color: lightblue;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+}
+button{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: green;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}

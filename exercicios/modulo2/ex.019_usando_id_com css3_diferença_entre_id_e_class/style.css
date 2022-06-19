@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+(Em HTML é id  =  Em CSS é #) - Só deve ser usado uma vez na página.
+
+(Em HTML é class  = Em CSS é .) - É mais indicado quando precisa ter vários elementos selecionados dentro de uma mesma página.
+*/
+
+body{
+    background-image: linear-gradient(to right, #46F1F2
+80px, #22F0B5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+h1{
+    color: #224BF0;}
+h1#principal{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: normal;   
+    background-color: #224BF0;
+    color:  #ffffff;}
+
+h2{
+    color: #2387FA;
+}
+.basico{
+    color: #092CB0;
+}
+.intermediario{
+        color: #00991C;
+    }
+.avançado{
+color: #FF000F;
+}
+.destaque{
+    background-color: #ffffff;
+}
+p{
+    text-align: justify;
+}

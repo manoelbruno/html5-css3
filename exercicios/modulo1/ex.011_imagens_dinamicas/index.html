@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="shortcut icon" href="Mundo.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tentar abrir este site em vários dispositivos diferentes ou simpis aumente e diminua o tamhanho de seu navegador!</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="IMAGENS/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="IMAGENS/foto-m.png" type="image/png">
+        <img src="IMAGENS/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <p>primeira maneira de se fazer!</p>
+    <audio src="MEDIA/Play Dead - NEFFEX.mp3" controls autoplay></audio>
+    <!--O autoplay só é necessário se você quizer que o audio comece a tocar assim que o navegador seja iniciado!
+    Os formatos mais ultilizados são mp3, wav e ogg-->
+    <p>Segunda maneira de se fazer!</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="MEDIA/Play Dead - NEFFEX.mp3" type="audio/mpeg">
+        <source src="MEDIA/Play Dead - NEFFEX.wav" type="audio/wav">
+        <source src="MEDIA/Play Dead - NEFFEX.ogg" type="audio/ogg">
+        <!--No preload, o mais indicado é o metadate que vai carregar todas as informações do seu audio sem precisar carregar o audio inteiro
+        autoplay, caso queira que o audio inicie logo que a pagina abrir. 
+        controls para inserir os botões de controle de audio.
+        loop, serve para o audio repetir automaticamente após o seu termino.
+        E o source src, que vai ser onde você vai colocar o caminho para o seu audio.
+        Por fim, type, que é o tipo de eudio que você vai inserir
+        É recomendado que insira vários tipos de audio para que o navegador tenha opção caso algum der falha.
+    Tentar evitr os arquivos wav, são muito grndes e deixa o site lento-->
+        <p>
+            <a href="MEDIA/Play Dead - NEFFEX.mp3">Clique aqui caso o audio não seja reproduzido para baixa-lo</a>
+        </p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body> 
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio computador</p>
+
+    <!--Modo mais fácio, mas não recomendado-->
+    <video src="midia/meu_video.mp4" width="560" height="315" autoplay controls></video>
+
+    <!--Modo mais dificil, mas eficaz. Neste modo você pode adicionar vários formatos, e o navegador irá escolher o mas adequado-->
+    <video controls width="560" height="315" loop poster="imagens/Toyota cabine curta em zinco.jpg">
+        <source src="midia/meu_video 750px mkv.mkv" type="video/mkv">
+        <source src="midia/meu_video 750px mp4.mp4" type="video/mp4">
+        <!--O paragrafo aparecerá caso nenhuma das opções sejam reconhecidas pelos navegadores-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube.</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LFcvashribQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo Vídeo do Vimeo</h1>
+        <iframe src="https://player.vimeo.com/video/70293346?h=70afaa49fb" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>
