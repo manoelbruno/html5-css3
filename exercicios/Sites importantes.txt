@@ -8,3 +8,6 @@ https://color.adobe.com/pt/create/color-wheel
 
 Um guia completo para Flexbox. Elemento pai (o contêiner flex) e os elementos filho (os itens flex)
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Gerador de QR-Code.
+https://qr.io/?gclid=CjwKCAjwwdWVBhA4EiwAjcYJEG7VEJRkAARot2qT4M5PpDeaxt_BvPbvs298HHlLRPvOy-0wFSUwwxoCDzUQAvD_BwE
