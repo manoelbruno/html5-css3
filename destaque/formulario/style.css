@@ -1,0 +1,139 @@
+@charset "UTF-8";
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7882f086;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #010A70;
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #232970;
+    text-shadow: 1px 1px 2px black;
+}
+
+form {
+    background-color: #5461ecb9;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #262D7A;
+}
+.id {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 0;    
+}
+
+.nome {
+    margin: 10px 63px 10px 10px;
+    
+}
+
+#nome {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
+
+.sobrenome {
+    margin: 10px 0px 10px 10px;
+}
+
+#sobrenome {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    padding: 0px 0px 0px 24px;
+}
+
+#email {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 24px;
+}
+.senioridade {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 93px;
+    margin: 20px 0px 0px 25px;
+}
+
+#senioridade {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
+
+.tecnologia {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px 0px 25px;
+    padding: 0;
+    border: none;
+}
+
+.text-experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#experiencia {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#botao {
+    font-weight: bold;
+    text-align: center center;
+    padding: 5px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #262D7A;
+}
